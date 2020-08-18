@@ -1,0 +1,27 @@
+<!-- <div [ngClass]= "setClasses()">
+    <p>
+        <input (change)="onToggle(todo)" type="checkbox"/>
+        {{todo.title}}
+        <button (click)="onDelete(todo)" class="del">x</button>
+    </p>
+</div> -->
+
+<!-- 
+<div class="list-group"  [ngClass]= "setClasses()">
+    <a href="#" (change)="onToggle(todo)" class="list-group-item list-group-item-action">
+        {{todo.title}}
+    </a>
+    <button (click)="onDelete(todo)" class="del">x</button>
+  </div> -->
+
+<div class="container">
+    <ul class="list-group"  [ngClass]= "setClasses()">
+
+        <li  class="list-group-item d-flex justify-content-between align-items-center">
+        <input (change)="onToggle(todo)" type="checkbox"/>
+            {{todo.title}}
+          <span class="badge badge-primary badge-pill del" (click)="onDelete(todo)">x</span>
+        </li>
+      </ul>
+</div>
+

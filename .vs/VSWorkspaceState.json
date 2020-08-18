@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\components",
+    "\\src\\app\\components\\todo-item"
+  ],
+  "SelectedNode": "\\src\\app\\components\\todo-item\\todo-item.component.spec.ts",
+  "PreviewInSolutionExplorer": false
+}

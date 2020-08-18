@@ -1,0 +1,20 @@
+.header {
+    height: 500px;
+    background:url(../../../../assets/img/bg-masthead.jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    
+}
